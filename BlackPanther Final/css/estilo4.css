@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Kdam+Thmor+Pro&family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Signika Negative', sans-serif;
+	background-color: #130f40;
+}
+
+main{
+	width: 992px;
+	height: 700px;
+	background-color: #000;
+	margin: auto;
+}
+
+header{
+	width: 992px;
+	height: 70px;
+	background-color: #FFC312;
+}
+
+article{
+	width: 992px;
+	background-color: #1B1464;
+	text-align: center;
+}
+
+footer{
+	width: 992px;
+	height: 70px;
+	background-color: #FFC312;
+	vertical-align: auto;
+}
+
+
+.menu{
+	float: right;
+}
+	a{
+		text-decoration: none;
+		color: inherit;
+		font-size: 14px;
+		text-align: right;
+	}
+
+	li{
+		display:inline-block;
+		width:80px;
+		padding:6px 15px;
+		background-color:#0c2461;
+		border:2px solid #fcef09;
+		text-align:center;
+		color:#ffa801;
+		float: right;
+		margin-right: 25px;
+		margin-top: 18px;
+		border-radius: 10px;
+	}
+
+	li:hover{
+		background-color:#fcef09;
+		color:#000;
+		border:2px solid #fcef09;
+	}
+
+.logo{
+	padding-left: 32px;
+}
+
+.nombre{
+	float: right;
+	margin-right: 32px;
+}
+	h2{
+			font-family: 'Bebas Neue', sans-serif;
+			font-size: 20px;
+			color: #1B1464
+		}
+
+h1{
+	color: #ffa801;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Signika Negative', sans-serif;
+}
+
+.escenas{
+	display: grid;
+	grid-template-rows: 3fr 3fr 3fr;
+	padding: 20px;
+}
+
+.filas{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	border-radius: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #FFC312;
+}
+
+.img-escena{
+	width: 200px;
+	border-radius: 15px;
+}
+
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+main{
+	width: 425px;
+	background-color: #000;
+	margin: auto;
+}
+
+header{
+	width: 425px;
+	height: 70px;
+	background-color: #FFC312;
+}
+
+article{
+	width: 425px;
+	height: 820px;
+}
+
+.filas{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr;
+    padding: 5px;
+}
+
+.img-escena{
+    position: relative;
+    left: 93px;
+}
+
+footer{
+	width: 425px;
+	height: 70px;
+	background-color: #FFC312;
+	vertical-align: auto;
+}
+	header{
+	width: 100%;
+	height: 140px;
+	background-color: #FFC312;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	}
+
+	.menu{
+	float: none;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+main{
+	width: 768px;
+	background-color: #000;
+	margin: auto;
+}
+
+header{
+	width: 768px;
+	height: 140px;
+	background-color: #FFC312;
+	text-align: center;
+}
+
+ul{
+	position: relative;
+	right: 163px;
+}
+
+article{
+	width: 768px;
+	height: 510px;
+}
+
+footer{
+	width: 768px;
+	height: 70px;
+	background-color: #FFC312;
+	vertical-align: auto;
+}
+
+	.menu{
+	float: none;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	}
+
+	p{
+		text-align: justify;
+		position: relative;
+		top: 20px;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	body{
+	font-family: 'Signika Negative', sans-serif;
+	background-color: #130f40;
+	}
+
+	main{
+	width: 992px;
+	background-color: #000;
+	margin: auto;
+	}
+
+	header{
+		width: 992px;
+		height: 70px;
+		background-color: #FFC312;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+	}
+
+	article{
+		width: 992px;
+		height: 560px;	}
+
+	footer{
+		width: 992px;
+		height: 70px;
+		background-color: #FFC312;
+		vertical-align: auto;
+	}
+
+}
